@@ -13,6 +13,8 @@
 		077FDDC529B0491600B15E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077FDDC329B0491600B15E3E /* Main.storyboard */; };
 		077FDDC729B0491700B15E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077FDDC629B0491700B15E3E /* Assets.xcassets */; };
 		077FDDCA29B0491700B15E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077FDDC829B0491700B15E3E /* LaunchScreen.storyboard */; };
+		077FDDD229B0975400B15E3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FDDD129B0975400B15E3E /* Constants.swift */; };
+		077FDDD429B0991400B15E3E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077FDDD329B0991400B15E3E /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		077FDDC629B0491700B15E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077FDDC929B0491700B15E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		077FDDCB29B0491700B15E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077FDDD129B0975400B15E3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		077FDDD329B0991400B15E3E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				077FDDC629B0491700B15E3E /* Assets.xcassets */,
 				077FDDC829B0491700B15E3E /* LaunchScreen.storyboard */,
 				077FDDCB29B0491700B15E3E /* Info.plist */,
+				077FDDD129B0975400B15E3E /* Constants.swift */,
+				077FDDD329B0991400B15E3E /* Extension.swift */,
 			);
 			path = ImageDownload;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077FDDD429B0991400B15E3E /* Extension.swift in Sources */,
 				077FDDC229B0491600B15E3E /* ViewController.swift in Sources */,
 				077FDDBE29B0491600B15E3E /* AppDelegate.swift in Sources */,
 				077FDDC029B0491600B15E3E /* SceneDelegate.swift in Sources */,
+				077FDDD229B0975400B15E3E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
